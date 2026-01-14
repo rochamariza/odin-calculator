@@ -28,6 +28,7 @@ h1{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-block: 10px;
 }
 .box button{
     padding: 10px;
@@ -35,18 +36,20 @@ h1{
 }
 .box input[type="text"]{
     padding: 10px;
+    border: 1px solid crimson;
+    outline: none;
 }
 .type{
     display: flex;
-    margin-top: 10px;
 }
 button{
-    padding: 24px;
+    padding: 25px;
     background-color: crimson;
     border: none;
     font-size: 20px;
     font-weight: 600;
     color: white;
+    cursor: pointer;
 }
 .signals{
     display: grid;
@@ -58,4 +61,16 @@ button{
 .numbers{
     display: grid;
     grid-template-columns: repeat(3, auto);
+}
+.screen{
+    width: 100%;
+    padding: 30px;
+    border: 1px solid #b11031;
+}
+.screen h1{
+    position: absolute;
+    right: 320px;
+    top: 310px;
+    text-align: left;
+    color: #b11031;
 }
