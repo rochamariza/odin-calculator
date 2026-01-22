@@ -63,14 +63,15 @@ button{
     grid-template-columns: repeat(3, auto);
 }
 .screen{
+    position: relative;
     width: 100%;
     padding: 30px;
     border: 1px solid #b11031;
 }
 .screen h1{
     position: absolute;
-    right: 320px;
-    top: 310px;
-    text-align: left;
+    right: 15px;
+    top: 15px;
+    text-align: right;
     color: #b11031;
 }
